@@ -1,0 +1,22 @@
+[
+  {
+    "type": "material",
+	"//": "copied from Kevlar, doesn't really matter since nothing armor etc will be made of it but I needed a material def",
+    "id": "BA_silk",
+    "name": "Spider Silk",
+    "density": 1.2,
+    "soft": true,
+    "specific_heat_liquid": 0.82,
+    "specific_heat_solid": 0.45,
+    "latent_heat": 273,
+    "chip_resist": 7,
+    "breathability": "GOOD",
+    "repaired_with": "kevlar_patch",
+    "salvaged_into": "kevlar_patch",
+    "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
+    "bash_dmg_verb": "ripped",
+    "cut_dmg_verb": "cut",
+    "resist": { "bash": 1, "cut": 3, "acid": 5, "heat": 1, "bullet": 2, "stab": 5 },
+    "repair_difficulty": 2
+  }
+ ]

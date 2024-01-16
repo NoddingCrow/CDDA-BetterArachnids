@@ -1,0 +1,9 @@
+[
+  {
+    "type": "mutation",
+    "id": "ARACHNID_ARMS_OK",
+    "name": { "str": "Arachnid Arms" },
+    "copy-from": "ARACHNID_ARMS_OK",
+    "extend": { "flags": [ "WALL_CLING" ] }
+  }
+]

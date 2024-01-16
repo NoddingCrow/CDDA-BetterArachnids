@@ -1,0 +1,90 @@
+[
+  {
+    "type": "mutation",
+    "id": "CHITIN",
+    "name": { "str": "Epicuticle" },
+    "copy-from": "CHITIN",
+    "extend": { "leads_to": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN2",
+    "name": { "str": "Chitin Carapace" },
+    "copy-from": "CHITIN2",
+    "delete": { "category": [ "SPIDER" ], "leads_to": [ "CHITIN3" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN3",
+    "name": { "str": "Sclerotin Plate" },
+    "copy-from": "CHITIN3",
+    "delete": { "category": [ "SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN_FUR",
+    "name": { "str": "Hairy Chitin" },
+    "copy-from": "CHITIN_FUR",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN_FUR2",
+    "name": { "str": "Furred Chitin" },
+    "copy-from": "CHITIN_FUR2",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN_FUR3",
+    "name": { "str": "Furred Plate" },
+    "copy-from": "CHITIN_FUR3",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] },
+    "delete": { "threshreq": [ "THRESH_SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CF_HAIR",
+    "name": { "str": "Urticating Hairs" },
+    "copy-from": "CF_HAIR",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] },
+    "delete": { "threshreq": [ "THRESH_SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARACHNID_ARMS",
+    "name": { "str": "Arachnid Limbs" },
+    "copy-from": "ARACHNID_ARMS",
+    "extend": { "prereqs2": [ "BA_ADVANCEDCHITIN" ] },
+    "delete": { "threshreq": [ "THRESH_SPIDER" ], "prereqs": [ "INSECT_ARMS" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARACHNID_ARMS_OK",
+    "name": { "str": "Arachnid Arms" },
+    "copy-from": "ARACHNID_ARMS_OK",
+    "extend": { "flags": [ "WALL_CLING" ] },
+    "delete": { "threshreq": [ "THRESH_SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "POISONOUS2",
+    "name": { "str": "Strongly Venomous" },
+    "copy-from": "POISONOUS2",
+    "delete": { "threshreq": [ "THRESH_SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "WEB_SPINNER",
+    "name": { "str": "Web Spinner" },
+    "copy-from": "WEB_SPINNER",
+    "delete": { "threshreq": [ "THRESH_SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "WEB_WEAVER",
+    "name": { "str": "Web Weaver" },
+    "copy-from": "WEB_WEAVER",
+    "delete": { "threshreq": [ "THRESH_SPIDER" ] }
+  }
+]

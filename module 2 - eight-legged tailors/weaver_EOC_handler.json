@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ACT_BA_SPIN_THREAD",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_THREAD"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_THREAD",
+    "effect": [
+      { "u_spawn_item": "thread", "count": 600 },
+      { "u_message": "You quickly weave out a length of thin fibers." },
+      { "math": [ "u_val('stored_kcal')", "-=", "1" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_THREAD",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_THREAD", "duration": "30 seconds" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_THREAD_HEAVY",
+    "effect": [
+      { "u_spawn_item": "thread_canvas", "count": 60 },
+      { "u_message": "You quickly weave out a length of thin fibers." },
+      { "math": [ "u_val('stored_kcal')", "-=", "3" ] }
+    ]
+  },
+  {
+    "id": "ACT_BA_SPIN_THREAD_HEAVY",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_THREAD_HEAVY"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_THREAD_HEAVY",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_THREAD_HEAVY", "duration": "2 minutes" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_STRING36",
+    "effect": [
+      { "u_spawn_item": "string_36", "count": 1 },
+      { "u_message": "You quickly weave out a length of woven fibers." },
+      { "math": [ "u_val('stored_kcal')", "-=", "9" ] }
+    ]
+  },
+  {
+    "id": "ACT_BA_SPIN_STRING36",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_STRING36"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_STRING36",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_STRING36", "duration": "2 minutes" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_ROPE30",
+    "effect": [
+      { "u_spawn_item": "rope_30", "count": 1 },
+      { "u_message": "You spin out a long rope of twisted fibers." },
+      { "math": [ "u_val('stored_kcal')", "-=", "260" ] }
+    ]
+  },
+  {
+    "id": "ACT_BA_SPIN_ROPE30",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_ROPE30"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_ROPE30",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_ROPE30", "duration": "75 minutes" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_BOLT_COTTON",
+    "effect": [
+      { "u_spawn_item": "BA_bolt_cotton", "count": 1 },
+      { "u_message": "You carefully weave out a bolt of cotton-like silk." },
+      { "math": [ "u_val('stored_kcal')", "-=", "14" ] }
+    ]
+  },
+  {
+    "id": "ACT_BA_SPIN_BOLT_COTTON",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_BOLT_COTTON"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_COTTON",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_BOLT_COTTON", "duration": "8 minutes" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_BOLT_NYLON",
+    "effect": [
+      { "u_spawn_item": "BA_bolt_nylon", "count": 1 },
+      { "u_message": "You carefully weave out a bolt of nylon-like silk." },
+      { "math": [ "u_val('stored_kcal')", "-=", "14" ] }
+    ]
+  },
+  {
+    "id": "ACT_BA_SPIN_BOLT_NYLON",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_BOLT_NYLON"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_NYLON",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_BOLT_NYLON", "duration": "12 minutes" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_SPAWN_BOLT_KEVLAR",
+    "effect": [
+      { "u_spawn_item": "BA_bolt_kevlar", "count": 1 },
+      { "u_message": "You carefully weave out a bolt of Kevlar-like silk." },
+      { "math": [ "u_val('stored_kcal')", "-=", "56" ] }
+    ]
+  },
+  {
+    "id": "ACT_BA_SPIN_BOLT_KEVLAR",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "spinning",
+    "based_on": "time",
+    "completion_eoc": "EOC_BA_SPAWN_BOLT_KEVLAR"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_DO_KEVLAR",
+    "effect": [ { "u_assign_activity": "ACT_BA_SPIN_BOLT_KEVLAR", "duration": "36 minutes" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_BA_RUN_WEAVER_MENU",
+    "effect": [
+      {
+        "run_eoc_selector": [
+          "EOC_BA_DO_THREAD",
+          "EOC_BA_DO_THREAD_HEAVY",
+          "EOC_BA_DO_STRING36",
+          "EOC_BA_DO_ROPE30",
+          "EOC_BA_DO_COTTON",
+          "EOC_BA_DO_NYLON",
+          "EOC_BA_DO_KEVLAR"
+        ],
+        "names": [
+          "Spin Thread",
+          "Spin Heavy-Duty Thread",
+          "Spin a Long String",
+          "Weave a Long Rope",
+          "Weave a bolt of Cotton-like silk",
+          "Weave a bolt of Nylon-like silk",
+          "Weave a bolt of Kevlar-like silk"
+        ],
+        "descriptions": [
+          "( 30s |  1kCal ) Spin 60 units of thread",
+          "(  2m |  3kCal ) Spin 60 units of heavy-duty thread",
+          "(  2m |  9kCal ) Create 1 long string",
+          "( 75m |260kCal ) Create a long rope",
+          "(  8m | 14kCal ) Create 10x cotton sheets",
+          "( 12m | 14kCal ) Create 10x nylon sheets",
+          "( 36m | 56kCal ) Create 10x Kevlar sheets"
+        ],
+        "title": "Weave what?",
+        "keys": [ "a", "b", "c", "d", "e", "f", "g" ],
+        "allow_cancel": true
+      }
+    ]
+  }
+]

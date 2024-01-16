@@ -1,0 +1,55 @@
+[
+  {
+    "type": "mutation",
+    "id": "BA_ADVANCEDCHITIN",
+    "name": { "str": "Arachnid Carapace" },
+    "points": 4,
+    "visibility": 6,
+    "ugliness": 0,
+    "bash_dmg_bonus": 1,
+    "description": "You've grown plates of a smooth, hard chitin exoskeleton atop your leathery skin. It's pretty cool, in a horrifying murder-machine kinda way.",
+    "types": [ "BODY_ARMOR" ],
+    "cancels": [ "CHITIN3", "CHITIN2" ],
+    "category": [ "SPIDER" ],
+    "prereqs": [ "CHITIN" ],
+    "leads_to": [ "CHITIN_FUR3" ],
+    "integrated_armor": [ "BA_integrated_advancedChitin", "BA_integrated_clawsChitin" ],
+    "wet_protection": [
+      { "part": "head", "ignored": 2 },
+      { "part": "leg_l", "ignored": 9 },
+      { "part": "leg_r", "ignored": 9 },
+      { "part": "foot_l", "ignored": 2 },
+      { "part": "foot_r", "ignored": 2 },
+      { "part": "arm_l", "ignored": 8 },
+      { "part": "arm_r", "ignored": 8 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 18 }
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "BA_ADVANCEDCHITIN_MOLTED",
+    "name": { "str": "Arachnid Carapace" },
+    "points": 4,
+    "visibility": 6,
+    "ugliness": 0,
+    "description": "The plates of your exoskeleton are soft and fresh. They won't provide full protection until they've had a couple of days to harden.",
+    "types": [ "BODY_ARMOR" ],
+    "leads_to": [ "CHITIN_FUR3" ],
+    "integrated_armor": [ "BA_integrated_advancedChitin_molted" ],
+    "purifiable": false,
+    "wet_protection": [
+      { "part": "head", "ignored": 2 },
+      { "part": "leg_l", "ignored": 9 },
+      { "part": "leg_r", "ignored": 9 },
+      { "part": "foot_l", "ignored": 2 },
+      { "part": "foot_r", "ignored": 2 },
+      { "part": "arm_l", "ignored": 8 },
+      { "part": "arm_r", "ignored": 8 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 18 }
+    ]
+  }
+]

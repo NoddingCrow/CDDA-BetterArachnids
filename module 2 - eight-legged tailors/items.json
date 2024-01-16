@@ -1,0 +1,44 @@
+[
+  {
+    "id": "BA_bolt_cotton",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "bolt of cotton-weave spider silk", "str_pl": "bolts of cotton-weave spider silk" },
+    "description": "A couple of meters of spider-silk, woven in a way that closely resembles cotton. If cut down to size, it could easily be used as a subsitute for a thrifty tailor.",
+    "weight": "380 g",
+    "volume": "470 ml",
+    "price": 900,
+    "price_postapoc": 50,
+    "material": [ "BA_silk" ],
+    "symbol": "=",
+    "color": "dark_gray"
+  },
+  {
+    "id": "BA_bolt_nylon",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "bolt of nylon-weave spider silk", "str_pl": "bolts of nylon-weave spider silk" },
+    "description": "A couple of meters of spider-silk, woven in a way that closely resembles nylon. If cut down to size, it could easily be used as a subsitute for a modern tailor.",
+    "weight": "540 g",
+    "volume": "480 ml",
+    "price": 900,
+    "price_postapoc": 50,
+    "material": [ "BA_silk" ],
+    "symbol": "=",
+    "color": "dark_gray"
+  },
+  {
+    "id": "BA_bolt_kevlar",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "bolt of Kevlar-weave spider silk", "str_pl": "bolts of Kevlar-weave spider silk" },
+    "description": "A couple of meters of dense spider-silk, woven in a way that closely resembles soft Kevlar. If cut down to size, it could easily be used as a subsitute for an armor tailor.",
+    "weight": "260 g",
+    "volume": "510 ml",
+    "price": 900,
+    "price_postapoc": 50,
+    "material": [ "BA_silk" ],
+    "symbol": "=",
+    "color": "dark_gray"
+  }
+]

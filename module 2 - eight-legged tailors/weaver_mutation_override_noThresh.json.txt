@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mutation",
+    "id": "WEB_ROPE",
+    "name": { "str": "Fabric Weaver" },
+    "points": 3,
+    "description": "Your spinnerets are capable of weaving complex patterns and meshes. Activate to produce various fabric items.",
+    "category": [ "SPIDER" ],
+    "prereqs": [ "WEB_WEAVER" ],
+    "active": true,
+    "activated_is_setup": false,
+    "activated_eocs": [ "EOC_BA_RUN_WEAVER_MENU" ]
+  }
+]

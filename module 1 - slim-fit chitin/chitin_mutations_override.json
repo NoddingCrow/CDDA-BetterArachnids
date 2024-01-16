@@ -1,0 +1,65 @@
+[
+  {
+    "type": "mutation",
+    "id": "CHITIN",
+    "name": { "str": "Epicuticle" },
+    "copy-from": "CHITIN",
+    "extend": { "leads_to": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN2",
+    "name": { "str": "Chitin Carapace" },
+    "copy-from": "CHITIN2",
+    "delete": { "category": [ "SPIDER" ], "leads_to": [ "CHITIN3" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN3",
+    "name": { "str": "Sclerotin Plate" },
+    "copy-from": "CHITIN3",
+    "delete": { "category": [ "SPIDER" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN_FUR",
+    "name": { "str": "Hairy Chitin" },
+    "copy-from": "CHITIN_FUR",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN_FUR2",
+    "name": { "str": "Furred Chitin" },
+    "copy-from": "CHITIN_FUR2",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHITIN_FUR3",
+    "name": { "str": "Furred Plate" },
+    "copy-from": "CHITIN_FUR3",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CF_HAIR",
+    "name": { "str": "Urticating Hairs" },
+    "copy-from": "CF_HAIR",
+    "extend": { "prereqs": [ "BA_ADVANCEDCHITIN" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARACHNID_ARMS",
+    "name": { "str": "Arachnid Limbs" },
+    "copy-from": "ARACHNID_ARMS",
+    "extend": { "prereqs2": [ "BA_ADVANCEDCHITIN" ], "flags": [ "WALL_CLING" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARACHNID_ARMS_OK",
+    "name": { "str": "Arachnid Arms" },
+    "copy-from": "ARACHNID_ARMS_OK",
+    "extend": { "flags": [ "WALL_CLING" ] }
+  }
+]
