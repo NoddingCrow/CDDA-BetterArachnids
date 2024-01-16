@@ -2,10 +2,12 @@
 
 # Better Arachnids vINDEV.2  
 *By Crow!*
-*Last Change: Finishing Module 2*
+*Last Change: Finishing Module 2*  
+
 ~~
 NOTE: INDEV VERSION SUBJECT TO BALANCE CHANGES. SPRITEWORK NOT YET IMPLEMENTED.
-~~
+~~  
+
 This is a fairly substantial Overhaul mod for Arachnid Mutants in Cataclysm: DDA. Designed in three modules. Each module is designed to operate independently, and so if you don't like the content of a module you're free to delete it! 
 Want to stay being a giant spider tank? Go ahead and delete the Slim Chitin. Think cocooning and turning prey into nutrient goo is kinda gross? Me too! Delete Cocoon Digestion. This mod will only appeal to a small subset of users as is; I want you to be able to enjoy it. 
 
