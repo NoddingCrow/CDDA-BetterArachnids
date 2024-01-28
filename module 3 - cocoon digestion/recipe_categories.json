@@ -1,0 +1,7 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_ARACHNID",
+    "recipe_subcategories": [ "CSC_ALL" ]
+  }
+]
