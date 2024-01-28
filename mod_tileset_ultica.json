@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UltimateCataclysm" ],
+    "tiles-new": [
+      {
+        "file": "better_arachnids_Ultica.png",
+        "sprite_width": 32,
+        "sprite_height": 36,
+        "sprite_offset_y": -8,
+        "tiles": [
+          {
+            "id": [ "overlay_male_mutation_BA_ADVANCEDCHITIN", "overlay_male_mutation_BA_ADVANCEDCHITIN_MOLTED" ],
+            "fg": 0,
+            "rotates": false
+          },
+          {
+            "id": [ "overlay_female_mutation_BA_ADVANCEDCHITIN", "overlay_female_mutation_BA_ADVANCEDCHITIN_MOLTED" ],
+            "fg": 1,
+            "rotates": false
+          },
+          {
+            "id": [ "overlay_mutation_ARACHNID_ARMS", "overlay_mutation_ARACHNID_ARMS_OK" ],
+            "fg": 2,
+            "rotates": false
+          }
+        ]
+      },
+      {
+        "file": "better_arachnids_Ultica.png",
+        "tiles": [
+          { "id": [ "BA_corpse_cocoon", "BA_corpse_cocoon_digesting" ], "fg": 3, "rotates": false },
+          { "id": "BA_bag_cocoon", "fg": 4, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

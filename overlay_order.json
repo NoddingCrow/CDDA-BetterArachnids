@@ -1,0 +1,6 @@
+[
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [ { "id": [ "BA_ADVANCEDCHITIN", "BA_ADVANCEDCHITIN_MOLTED" ], "order": 1501 } ]
+  }
+]

@@ -1,10 +1,11 @@
-[{
-		"type": "MOD_INFO",
-		"ident": "betterArachnids",
-		"name": "Better Arachnids",
-		"authors": ["Crow"],
-		"description": "A functional overhaul of spider mutants",
-		"category": "content",
-		"dependencies": ["dda"]
-	}
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "betterArachnids",
+    "name": "Better Arachnids",
+    "authors": [ "Crow" ],
+    "description": "A functional overhaul of spider mutants",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
 ]

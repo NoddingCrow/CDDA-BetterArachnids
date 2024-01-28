@@ -1,0 +1,30 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Chibi_Ultica", "MshockXottoplus" ],
+    "tiles-new": [
+      {
+        "file": "better_arachnids_MSX.png",
+        "tiles": [
+          {
+            "id": [ "overlay_male_mutation_BA_ADVANCEDCHITIN", "overlay_male_mutation_BA_ADVANCEDCHITIN_MOLTED" ],
+            "fg": 0,
+            "rotates": false
+          },
+          {
+            "id": [ "overlay_female_mutation_BA_ADVANCEDCHITIN", "overlay_female_mutation_BA_ADVANCEDCHITIN_MOLTED" ],
+            "fg": 1,
+            "rotates": false
+          },
+          {
+            "id": [ "overlay_mutation_ARACHNID_ARMS", "overlay_mutation_ARACHNID_ARMS_OK" ],
+            "fg": 2,
+            "rotates": false
+          },
+          { "id": [ "BA_corpse_cocoon", "BA_corpse_cocoon_digesting" ], "fg": 3, "rotates": false },
+          { "id": "BA_bag_cocoon", "fg": 4, "rotates": false }
+        ]
+      }
+    ]
+  }
+]
