@@ -1,0 +1,74 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "BA_corpse_cocoon",
+    "category": "CC_ARACHNID",
+    "subcategory": "CSC_ALL",
+    "time": "8 m",
+    "tools": [ [ [ "integrated_fangs_spider", -1 ] ] ],
+    "components": [ [ [ "corpse", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ],
+    "autolearn": true
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "BA_corpse_cocoon_human",
+    "category": "CC_ARACHNID",
+    "subcategory": "CSC_ALL",
+    "time": "8 m",
+    "tools": [ [ [ "integrated_fangs_spider", -1 ] ] ],
+    "components": [ [ [ "corpse", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ],
+    "autolearn": true
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "BA_corpse_cocoon_tiny",
+    "category": "CC_ARACHNID",
+    "subcategory": "CSC_ALL",
+    "time": "30 s",
+    "tools": [ [ [ "integrated_fangs_spider", -1 ] ] ],
+    "components": [ [ [ "corpse", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ],
+    "autolearn": true
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "BA_corpse_cocoon_small",
+    "category": "CC_ARACHNID",
+    "subcategory": "CSC_ALL",
+    "time": "1 m",
+    "tools": [ [ [ "integrated_fangs_spider", -1 ] ] ],
+    "components": [ [ [ "corpse", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ],
+    "autolearn": true
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "BA_corpse_cocoon_large",
+    "category": "CC_ARACHNID",
+    "subcategory": "CSC_ALL",
+    "time": "20 m",
+    "tools": [ [ [ "integrated_fangs_spider", -1 ] ] ],
+    "components": [ [ [ "corpse", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ],
+    "autolearn": true
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "BA_corpse_cocoon_huge",
+    "category": "CC_ARACHNID",
+    "subcategory": "CSC_ALL",
+    "time": "60 m",
+    "tools": [ [ [ "integrated_fangs_spider", -1 ] ] ],
+    "components": [ [ [ "corpse", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ],
+    "autolearn": true
+  }
+]

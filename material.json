@@ -12,7 +12,6 @@
     "chip_resist": 7,
     "breathability": "GOOD",
     "repaired_with": "kevlar_patch",
-    "salvaged_into": "kevlar_patch",
     "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
     "bash_dmg_verb": "ripped",
     "cut_dmg_verb": "cut",

@@ -1,15 +1,13 @@
 
 
-# Better Arachnids vINDEV.2  
+# Better Arachnids vINDEV.3  
 *By Crow!*
-*Last Change: Finishing Module 2*  
-
+*Last Change: Adding Module 3 and MSX/Chibi tile support*
 ~~
-NOTE: INDEV VERSION SUBJECT TO BALANCE CHANGES. SPRITEWORK NOT YET IMPLEMENTED.
-~~  
-
+NOTE: INDEV VERSION SUBJECT TO BALANCE CHANGES. SOME SPRITEWORK NOT YET IMPLEMENTED.
+~~
 This is a fairly substantial Overhaul mod for Arachnid Mutants in Cataclysm: DDA. Designed in three modules. Each module is designed to operate independently, and so if you don't like the content of a module you're free to delete it! 
-Want to stay being a giant spider tank? Go ahead and delete the Slim Chitin. Think cocooning and turning prey into nutrient goo is kinda gross? Me too! Delete Cocoon Digestion. This mod will only appeal to a small subset of users as is; I want you to be able to enjoy it. 
+Want to stay being a giant spider tank? Go ahead and delete the Slim Chitin. Think cocooning and turning prey into nutrient goo is kinda gross? Me too! Delete Cocoon Digestion. This mod will only appeal to a small subset of users as is; I want you to be able to enjoy it.
 
 ## **Module 1: slim-fit chitin**
 This module rebuilds the spider chitin mutation lines to form a more "dodge tank" oriented playstyle, and allow you to get your fashion on. 
@@ -29,11 +27,18 @@ Optional Files:
 This module takes control of the *Rope Webs* base game mutation to make it a little better. 
 Using the renamed "Fabric Weaver" active mutation will give you a menu, to spawn your choice of Thread, Heavy Duty Thread, Long String, Long Rope, and new "Bolts of Spidersilk". 
 These bolts of spidersilk come in three types: Cottonweave, Nylonweave, and Kevlarweave. Cotton and Nylon have similar costs, with Nylon being slightly more complex. Kevlarweave is considerably more expensive, but still very affordable. The spidersilk can then be deconstructed into ten sheets of the appropriate tailoring material.
-*Exact values subject to balance changes!*
+*Exact values may be subject to balance changes!*
 
 Optional Files:
 `weaver_mutation_override_noThresh.json.txt` - much like the equivalent in module 1, this file will remove threshold requirements for the Fabric Weaver mutation (ROPE_WEBS). **If you wish to use it, remove the .txt extension and delete `weaver_mutation_override.json`.**
 
 ## Module 3: cocoon digestion
-A port and cleanup of my old *External Digestion* mod, this module allows spiders to cocoon whole prey and convert their juicy insides to nutrient slurry at a very high efficiency.
-Under Construction!
+A port and cleanup of my old *External Digestion 2* mod, this module allows spiders to cocoon whole prey and convert their juicy insides to nutrient slurry at a very high efficiency - approximately 90% of all non-bone mass (calculated based off human dimensions) will be recovered as a nutrient slurry that both feeds and quenches thirst in the spider.  
+This module, however, has some of the greatest limiting factors - chiefly that it is impossible to determine any information about the corpses for anything but butchery. The implementation therefore is:
+6 new recipes are added under the ARACHNID tab of the crafting menu. Tiny, Small, Medium, Human, Large, and Huge. 
+**This operates as an honor system**. I cannot stop you using rotten corpses, zombie corpses, or using a corpse for the 'wrong size' recipe so getting a Moose's worth of nutrients out of a chicken. It is entirely possible to game this system. If you want to do so, that's entirely your choice. 
+The Human cocoon is identical to the Medium Cocoon, but drops a human skull on disassembly when finished, by request.
+
+Once you've crafted your cocooned corpse, activate it to begin digestion. This will take between around 15 seconds for a tiny squirrel corpse, to 40 hours for a huge corpse the size of a moose. You can leave the active cocoon and come back later, once the process has started.
+Come back, and activate the cocoon again. If the required time has passed, you will get a *digested cocoon* filled with liquid nutrient slurry. This has a shelf life of approximately 1 day, extended to 3 while it's in the cocoon. 
+Once your cocoon is drained, or before if you want to make a mess, you can disassemble it to recover the bones of your prey if you so choose. 

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ACT_BA_COCOON_BITE",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "biting",
+    "based_on": "time"
+  },
+  {
+    "id": "BA_corpse_cocoon",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "wrapped cocoon - medium" },
+    "looks_like": "bag_plastic",
+    "description": "Spider silk, woven tight around a body around the size of a desk, or a person. Should preserve the contents fairly well, in a gross kind of way.",
+    "weight": "80 kg",
+    "volume": "60 L",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "BA_silk", "flesh", "bone" ],
+    "symbol": "O",
+    "color": "white",
+    "flags": [ "TRADER_AVOID" ],
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "Begin digestion",
+      "effect_on_conditions": [
+        {
+          "id": "BA_eoc_inspect_cocoon",
+          "condition": { "u_has_trait": "FANGS_SPIDER" },
+          "effect": [
+            { "u_assign_activity": "ACT_BA_COCOON_BITE", "duration": "20 seconds" },
+            {
+              "u_message": "You spend several seconds repeatedly driving your fangs deep into the cocoon, injecting it with digestive enzymes."
+            },
+            { "transform_item": "BA_corpse_cocoon_digesting", "active": true }
+          ],
+          "false_effect": [ { "u_message": "You're unable to do anything with the cocoon." } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_human",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "wrapped cocoon - medium (human)" },
+    "copy-from": "BA_corpse_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "Spider silk, woven tightly around a body of the size and shape of a human being.",
+    "weight": "80 kg",
+    "volume": "60 L",
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "Feed",
+      "effect_on_conditions": [
+        {
+          "id": "BA_eoc_inspect_cocoon_human",
+          "condition": { "u_has_trait": "FANGS_SPIDER" },
+          "effect": [
+            { "u_assign_activity": "ACT_BA_COCOON_BITE", "duration": "20 seconds" },
+            {
+              "u_message": "You spend several seconds repeatedly driving your fangs deep into the cocoon, injecting it with digestive enzymes."
+            },
+            { "transform_item": "BA_corpse_cocoon_human_digesting", "active": true }
+          ],
+          "false_effect": [ { "u_message": "You're unable to do anything with the cocoon." } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_tiny",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "wrapped cocoon - tiny" },
+    "copy-from": "BA_corpse_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "Spider silk, woven tightly around a small body the size of a football. Should preserve the contents, for what little it's worth.",
+    "weight": "2 kg",
+    "volume": "1 L",
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "Feed",
+      "effect_on_conditions": [
+        {
+          "id": "BA_eoc_inspect_cocoon_tiny",
+          "condition": { "u_has_trait": "FANGS_SPIDER" },
+          "effect": [
+            { "u_assign_activity": "ACT_BA_COCOON_BITE", "duration": "2 seconds" },
+            {
+              "u_message": "You spend a couple of seconds repeatedly driving your fangs deep into the cocoon, injecting it with digestive enzymes."
+            },
+            { "transform_item": "BA_corpse_cocoon_tiny_digesting", "active": true }
+          ],
+          "false_effect": [ { "u_message": "You're unable to do anything with the cocoon." } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_small",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "wrapped cocoon - small" },
+    "copy-from": "BA_corpse_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A small, sealed, watertight wrapping of spider silk around a body the size of a large dog, or a child. Whatever's inside should stay... 'fresh'.",
+    "weight": "30 kg",
+    "volume": "20 L",
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "Feed",
+      "effect_on_conditions": [
+        {
+          "id": "BA_eoc_inspect_cocoon_small",
+          "condition": { "u_has_trait": "FANGS_SPIDER" },
+          "effect": [
+            { "u_assign_activity": "ACT_BA_COCOON_BITE", "duration": "8 seconds" },
+            {
+              "u_message": "You spend a couple of moments repeatedly driving your fangs deep into the cocoon, injecting it with digestive enzymes."
+            },
+            { "transform_item": "BA_corpse_cocoon_small_digesting", "active": true }
+          ],
+          "false_effect": [ { "u_message": "You're unable to do anything with the cocoon." } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_large",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "wrapped cocoon - large" },
+    "copy-from": "BA_corpse_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A large cocoon of spidersilk, around a body roughly the size of a bear.",
+    "weight": "300 kg",
+    "volume": "200 L",
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "Feed",
+      "effect_on_conditions": [
+        {
+          "id": "BA_eoc_inspect_cocoon_large",
+          "condition": { "u_has_trait": "FANGS_SPIDER" },
+          "effect": [
+            { "u_assign_activity": "ACT_BA_COCOON_BITE", "duration": "60 seconds" },
+            {
+              "u_message": "You spend a minute repeatedly driving your fangs deep into the cocoon, injecting it with digestive enzymes."
+            },
+            { "transform_item": "BA_corpse_cocoon_large_digesting", "active": true }
+          ],
+          "false_effect": [ { "u_message": "You're unable to do anything with the cocoon." } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_huge",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "wrapped cocoon - huge" },
+    "copy-from": "BA_corpse_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A huge watertight cocoon of spidersilk. A corpse roughly the size of a cow should stay moderately fresh within.",
+    "weight": "600 kg",
+    "volume": "400 L",
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "Feed",
+      "effect_on_conditions": [
+        {
+          "id": "BA_eoc_inspect_cocoon_huge",
+          "condition": { "u_has_trait": "FANGS_SPIDER" },
+          "effect": [
+            { "u_assign_activity": "ACT_BA_COCOON_BITE", "duration": "120 seconds" },
+            {
+              "u_message": "You spend a couple of minutes repeatedly driving your fangs deep into the cocoon, injecting it with digestive enzymes."
+            },
+            { "transform_item": "BA_corpse_cocoon_huge_digesting", "active": true }
+          ],
+          "false_effect": [ { "u_message": "You're unable to do anything with the cocoon." } ]
+        }
+      ]
+    }
+  }
+]

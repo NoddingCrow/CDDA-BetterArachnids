@@ -1,0 +1,139 @@
+[
+  {
+    "id": "BA_corpse_cocoon_digesting",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digesting cocoon - medium" },
+    "looks_like": "bag_plastic",
+    "description": "Spider silk, woven tight around a body around the size of a desk, or a person. This one is slightly and disconcertingly squishy to the touch, but still retains most of its form factor.",
+    "weight": "80 kg",
+    "volume": "60 L",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "BA_silk", "flesh", "bone" ],
+    "symbol": "O",
+    "color": "white",
+    "flags": [ "TRADER_AVOID", "SPAWN_ACTIVE" ],
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 21600,
+      "not_ready_msg": "The cocooned prey is still dissolving. You guess a meal this size will take around six hours.",
+      "target": "BA_enzyme_shake",
+      "target_charges": 240,
+      "moves": 10,
+      "msg": "You find this cocoon has finished digesting, and is now ready for consumption.",
+      "container": "BA_bag_cocoon",
+      "sealed": false
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_human_digesting",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digesting cocoon - human" },
+    "copy-from": "BA_corpse_cocoon_digesting",
+    "looks_like": "BA_bag_cocoon",
+    "description": "Spider silk, woven tightly around a body of the size and shape of a human being. This one is slightly and disconcertingly squishy to the touch, but still retains most of its form factor.",
+    "weight": "80 kg",
+    "volume": "60 L",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 21600,
+      "not_ready_msg": "The cocooned prey is still dissolving. You guess a meal this size will take around six hours.",
+      "target": "BA_enzyme_shake",
+      "target_charges": 240,
+      "moves": 10,
+      "msg": "You find this cocoon has finished digesting, and is now ready for consumption.",
+      "container": "BA_bag_cocoon_human",
+      "sealed": false
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_tiny_digesting",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digesting cocoon - tiny" },
+    "copy-from": "BA_corpse_cocoon_digesting",
+    "looks_like": "BA_bag_cocoon",
+    "description": "Spider silk, woven tightly around a small body the size of a football. This one is slightly and disconcertingly squishy to the touch, but still retains most of its form factor.",
+    "weight": "2 kg",
+    "volume": "1 L",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 360,
+      "not_ready_msg": "The cocooned prey is still dissolving. You guess a meal this size will take around six minutes.",
+      "target": "BA_enzyme_shake",
+      "target_charges": 4,
+      "moves": 10,
+      "msg": "You find this cocoon has finished digesting, and is now ready for consumption.",
+      "container": "BA_bag_cocoon_tiny",
+      "sealed": false
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_small_digesting",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digesting cocoon - small" },
+    "copy-from": "BA_corpse_cocoon_digesting",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A small, sealed, watertight wrapping of spider silk around a body the size of a large dog, or a child. This one is slightly and disconcertingly squishy to the touch, but still retains most of its form factor.",
+    "weight": "30 kg",
+    "volume": "20 L",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 7200,
+      "not_ready_msg": "The cocooned prey is still dissolving. You guess a meal this size will take around two hours.",
+      "target": "BA_enzyme_shake",
+      "target_charges": 80,
+      "moves": 10,
+      "msg": "You find this cocoon has finished digesting, and is now ready for consumption.",
+      "container": "BA_bag_cocoon_small",
+      "sealed": false
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_large_digesting",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digesting cocoon - large" },
+    "copy-from": "BA_corpse_cocoon_digesting",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A large cocoon of spidersilk, around a body roughly the size of a bear. This one is slightly and disconcertingly squishy to the touch, but still retains most of its form factor.",
+    "weight": "300 kg",
+    "volume": "200 L",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 72000,
+      "not_ready_msg": "The cocooned prey is still dissolving. You guess a meal this size will take around twenty hours.",
+      "target": "BA_enzyme_shake",
+      "target_charges": 800,
+      "moves": 10,
+      "msg": "You find this cocoon has finished digesting, and is now ready for consumption.",
+      "container": "BA_bag_cocoon_large",
+      "sealed": false
+    }
+  },
+  {
+    "id": "BA_corpse_cocoon_huge_digesting",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digesting cocoon - huge" },
+    "copy-from": "BA_corpse_cocoon_digesting",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A huge watertight cocoon of spidersilk. This one is slightly and disconcertingly squishy to the touch, but still retains most of its form factor.",
+    "weight": "600 kg",
+    "volume": "400 L",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 144000,
+      "not_ready_msg": "The cocooned prey is still dissolving. You guess a meal this size will take close to two days!",
+      "target": "BA_enzyme_shake",
+      "target_charges": 1600,
+      "moves": 10,
+      "msg": "You find this cocoon has finished digesting, and is now ready for consumption.",
+      "container": "BA_bag_cocoon_huge",
+      "sealed": false
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "BA_bag_cocoon",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digested cocoon" },
+    "looks_like": "bag_plastic",
+    "description": "A sealed, watertight wrapping of spider silk, around the size of a desk. It smells faintly of decay, stale saliva, and it is generally unpleasant to consider what poor creature met its end within.",
+    "weight": "200 g",
+    "volume": "800 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "BA_silk", "bone" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "55 L",
+        "max_contains_weight": "73 kg",
+        "spoil_multiplier": 0.3
+      }
+    ],
+    "symbol": "O",
+    "color": "white",
+    "flags": [ "COLLAPSE_CONTENTS", "NO_RELOAD", "TRADER_AVOID" ]
+  },
+  {
+    "id": "BA_bag_cocoon_human",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digested cocoon" },
+    "copy-from": "BA_bag_cocoon",
+    "description": "A sealed, watertight wrapping of spider silk, around the size of a human being. You probably don't want to think too hard about what, or who, met their end here.",
+    "weight": "200 g",
+    "volume": "800 ml",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "55 L",
+        "max_contains_weight": "73 kg",
+        "spoil_multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "id": "BA_bag_cocoon_tiny",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digested cocoon" },
+    "copy-from": "BA_bag_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A small, sealed, watertight wrapping of spider silk, around the size of a football. It smells faintly of decay, stale saliva, and it is generally unpleasant to consider what poor creature met its end within.",
+    "weight": "800 g",
+    "volume": "100 ml",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "1200 g",
+        "spoil_multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "id": "BA_bag_cocoon_small",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digested cocoon" },
+    "copy-from": "BA_bag_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A small, sealed, watertight wrapping of spider silk, around the size of a pillow. It smells faintly of decay, stale saliva, and it is generally unpleasant to consider what poor creature met its end within.",
+    "weight": "6 kg",
+    "volume": "2 L",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "19 L",
+        "max_contains_weight": "25 kg",
+        "spoil_multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "id": "BA_bag_cocoon_large",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digested cocoon" },
+    "copy-from": "BA_bag_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A large, sealed, watertight wrapping of spider silk, around the size of a couch. It smells of decay, stale saliva, and it is frankly concerning to consider what poor creature met its end within.",
+    "weight": "60 kg",
+    "volume": "20 L",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "181 L",
+        "max_contains_weight": "241 kg",
+        "spoil_multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "id": "BA_bag_cocoon_huge",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "digested cocoon" },
+    "copy-from": "BA_bag_cocoon",
+    "looks_like": "BA_bag_cocoon",
+    "description": "A huge, sealed, watertight wrapping of spider silk, around the size of a couch. It smells of decay, stale saliva, and it is frankly concerning to consider what poor creature met its end within.",
+    "weight": "120 kg",
+    "volume": "40 L",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "361 L",
+        "max_contains_weight": "481 kg",
+        "spoil_multiplier": 0.3
+      }
+    ]
+  }
+]
